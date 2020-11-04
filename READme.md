@@ -49,4 +49,8 @@ module.exports = {
 }
 
 note: componets > Header.js no need to use <a> only use <NavLink> because we are using reactstrap
+
+$ npm i isomorphic-fetch
+All the auth related methods
+create folder actions > auth.js
 ```
