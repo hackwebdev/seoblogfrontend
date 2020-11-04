@@ -25,4 +25,13 @@ copy the example
 
 pages > _document.js
 
+need to fix meta tag on _document.js coz it has a warning error
+
+for Responsive navigation
+https://reactstrap.github.io/ - to implement bootstrap
+$ npm install --save reactstrap react react-dom
+
+Components > Navbar Copy the code
+
+Note: 'next' is not recognized as an internal or external command, <- i got an error ->
 ```
