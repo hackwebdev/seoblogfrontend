@@ -3,8 +3,13 @@ import { signup } from '../../actions/auth';
 
 const SignupComponent = () => {
     const [values, setValues] = useState({
+<<<<<<< HEAD
         name: 'Basha',
         email: 'basha@gmail.com',
+=======
+        name: 'Ryan',
+        email: 'ryan@gmail.com',
+>>>>>>> e32a5341ba0659fe2a5ddf51480c478fb5841b4c
         password: 'rrrrrr',
         error: '',
         loading: false,
