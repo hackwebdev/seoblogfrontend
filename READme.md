@@ -33,5 +33,9 @@ $ npm install --save reactstrap react react-dom
 
 Components > Navbar Copy the code
 
-Note: 'next' is not recognized as an internal or external command, <- i got an error ->
+Adding Environment variables
+create next.config.js from the root folder
+create config.js from the root folder
+<- need to restart the server ->
+
 ```
