@@ -38,4 +38,15 @@ create next.config.js from the root folder
 create config.js from the root folder
 <- need to restart the server ->
 
+create a next.config.js
+
+module.exports = {
+    publicRuntimeConfig:{
+        APP_NAME:'app name here',
+        API_DEVELOPMENT:'link here',
+        PRODUCTION: false or true
+    }
+}
+
+note: componets > Header.js no need to use <a> only use <NavLink> because we are using reactstrap
 ```
