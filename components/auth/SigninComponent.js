@@ -32,7 +32,11 @@ const SigninComponent = () => {
                 // save user info to localstorage
                 // authenticate user
                 authenticate(data, () => {
-                    Router.push(`/`);
+                    if (isAuth() && isAuth().role === 1) {
+                        Router.push(`/admin`);
+                    } else {
+                        Router.push(`/user`);
+                    }
                 });
             }
         });
@@ -70,7 +74,7 @@ const SigninComponent = () => {
                 </div>
 
                 <div>
-                    <button className="btn btn-primary">Signup</button>
+                    <button className="btn btn-primary">Signin</button>
                 </div>
             </form>
         );
